@@ -36,7 +36,6 @@ python rule_generator.py --dataset mimic-iii --model_name Qwen3-8B -f 50 -l 10
 python clean_rule.py --dataset mimic-iii -p Qwen3-8B --model none
 python rank_rule.py --dataset mimic-iii -p clean_rules/mimic-iii/Qwen3-8B/none
 python gen_kg.py
-
 ```
 
 ### Deep Learning-Based Drug Probability Prediction with EHRs and KG
